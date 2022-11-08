@@ -304,12 +304,12 @@ spec:
     - name: ingress-subnets__count
       type: number
       description: The number of subnets that should be provisioned
-      defaultValue: 3
+      defaultValue: 1
     - name: bastion-subnets__count
       type: number
       description: The number of subnets that should be provisioned
-      defaultValue: 3
+      defaultValue: 1
     - name: egress-subnets__count
       type: number
       description: The number of subnets that should be provisioned
-      defaultValue: 3
+      defaultValue: 1

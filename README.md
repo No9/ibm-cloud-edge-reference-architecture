@@ -83,14 +83,20 @@ This README.md describes the SRE steps required to provision an environment that
     cd ../workspaces/current
     ```
 
-1. Edit the `terraform.tfvars` file with the values you require.
+1. Edit the `terraform.tfvars` file with the values you require as sample is provided in `terraform.tfvars.sample`
+
+1. Configure the terraform variable for your [IBM Cloud API key](https://cloud.ibm.com/iam/apikeys) by running the following in your shell.
+
+    ```
+    export TF_VAR_ibmcloud_api_key=xxx
+    ```
 
 ## Install
 
-1. If you are testing this out on a personal account you may wish to skip the `000-ibm-edge-account-setup` as this will prevent service ids being generated which can impact some expected functionality. 
+1. If you are testing this out on a personal account you may wish to skip the `000-ibm-edge-account-setup` as this will prevent service ids being generated which can impact some expected functionality.
 
-    If that is the case then run the 100 to 120 configurations in workspaces/current seperately with:
-
+    If that is the case then run the 100 to 120 configurations in workspaces/current seperately:
+    e.g.
     ```
     cd 100-ibm-edge-shared-services
     terraform init

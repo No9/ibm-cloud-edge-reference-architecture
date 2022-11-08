@@ -251,16 +251,16 @@ spec:
     - name: worker-subnets__count
       type: number
       description: The number of subnets that should be provisioned
-      defaultValue: 3
+      defaultValue: 1
     - name: vpe-subnets__count
       type: number
       description: The number of subnets that should be provisioned
-      defaultValue: 3
+      defaultValue: 1
     - name: ingress-subnets__count
       type: number
       description: The number of subnets that should be provisioned
-      defaultValue: 3
+      defaultValue: 1
     - name: vpn-subnets__count
       type: number
       description: The number of subnets that should be provisioned
-      defaultValue: 3
+      defaultValue: 1

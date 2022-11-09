@@ -6,6 +6,17 @@ A template for creating an [RHEL for Edge Service](https://access.redhat.com/doc
 
 - 11/2022 - Initial release
 
+## Status
+
+- [x] Account Hardening
+- [x] Shared Services Deployment
+- [x] DMZ Deployment
+- [x] Management Zone Deployment
+- [ ] RHEL Content Host
+- [ ] RHEL Image Builder
+- [ ] Container Registry Access
+- [ ] Documentation of Deployment Options
+
 ## Overview
 
 This repository contains a set of terraform scripts based on the [IBM Cloud Reference architecture](https://github.com/IBM/ibm-cloud-reference-architectures) tailored specifically for running an [Red Het Enterprise Linux at the Edge](https://access.redhat.com/documentation/en-us/red_hat_enterprise_linux/9/html/composing_installing_and_managing_rhel_for_edge_images/index) instance in a secure environment that can be used as the basis of a compliance effort.

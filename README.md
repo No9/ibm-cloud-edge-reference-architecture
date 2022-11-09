@@ -65,12 +65,6 @@ This README.md describes the SRE steps required to provision an environment that
 
 ## Configuration
 
-1. Generate the SSH keys
-
-    ```
-    ./create-ssh-keys.sh
-    ```
-
 1. Create a copy of the Terraform scripts in a workspace/current
 
     ```
